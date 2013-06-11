@@ -1,7 +1,7 @@
-name: MenuPlugin
+name: TestPlugin
 version: 1.0
-main: test.MenuPlugin
+main: test.TestPlugin
 commands:
-    showmenu:
-        usage: /showmenu
-        description: Shows the testing menu
+    do:
+        usage: /do
+        description: Does stuff, if needed
