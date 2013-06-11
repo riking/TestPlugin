@@ -1,0 +1,7 @@
+name: MenuPlugin
+version: 1.0
+main: test.MenuPlugin
+commands:
+    showmenu:
+        usage: /showmenu
+        description: Shows the testing menu
