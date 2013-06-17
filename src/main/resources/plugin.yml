@@ -5,3 +5,21 @@ commands:
     do:
         usage: /do
         description: Does stuff, if needed
+    start:
+        usage: /start
+    stop:
+        usage: /start
+    effect:
+        usage: /start
+    spread:
+        usage: /start
+    speed:
+        usage: /start
+    id:
+        usage: /start
+    data:
+        usage: /start
+    material:
+        usage: /start
+    count:
+        usage: /start

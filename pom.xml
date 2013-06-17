@@ -16,4 +16,7 @@
   		<version>LATEST</version>
   	</dependency>
   </dependencies>
+  <build>
+    <finalName>TestPlugin</finalName>
+  </build>
 </project>
