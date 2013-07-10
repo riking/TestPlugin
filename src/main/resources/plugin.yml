@@ -1,25 +1,18 @@
 name: TestPlugin
 version: 1.0
 main: test.TestPlugin
+
+depend: [TemplateWorlds]
 commands:
-    do:
-        usage: /do
-        description: Does stuff, if needed
-    start:
-        usage: /start
-    stop:
-        usage: /start
-    effect:
-        usage: /start
-    spread:
-        usage: /start
-    speed:
-        usage: /start
-    id:
-        usage: /start
-    data:
-        usage: /start
-    material:
-        usage: /start
-    count:
-        usage: /start
+    enter:
+        usage: /enter
+        description: Enter the lobby
+    reset:
+        usage: /reset
+        description: Reset lobby
+    edit:
+        usage: /edit [start|stop]
+        description: Edit the lobby world
+    exit:
+        usage: /exit
+        description: Exit the lobby & return to main
