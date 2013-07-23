@@ -2,8 +2,14 @@ name: TestPlugin
 version: 1.0
 main: test.TestPlugin
 
-depend: [TemplateWorlds]
+depend: []
 commands:
+    about:
+        usage: /about
+        description: About that beacon..
+    test:
+        usage: /test
+        description: Tests stuff
     enter:
         usage: /enter
         description: Enter the lobby
