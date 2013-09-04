@@ -1,41 +1,18 @@
-name: TestPlugin
+name: "ballin-wight"
 version: 1.0
-main: test.TestPlugin
+main: com.github.riking.tmp.neverop.TestPlugin
 
 depend: []
-commands:
-    about:
-        usage: /about
-        description: About that beacon..
-    absorb:
-        usage: /absorb
-        description: Converts Regeneration to Absorption on beacons
-    active:
-        usage: /active [on|off|default]
-        description: Set ActivationState of beacon
-    player:
-        usage: /player [deny|allow|bonus|nobonus] <name>
-        description: Set player's beacon allowed state
-    test:
-        usage: /test
-        description: Tests stuff
-    enter:
-        usage: /enter
-        description: Enter the lobby
-    reset:
-        usage: /reset
-        description: Reset lobby
-    edit:
-        usage: /edit [start|stop]
-        description: Edit the lobby world
-    exit:
-        usage: /exit
-        description: Exit the lobby & return to main
+author: riking
+description: >
+  Another of Riking's Single File Plugins.
+  Deop players when they run commands and log in.
 
+  
+commands:
+  sudo:
+    permission:
+      x.sudoer
 permissions:
-    beacon.use:
-        default: true
-        description: If a player can get anything from beacons
-    beacon.bonus:
-        default: false
-        description: If a player gets boosted beacon effects from beacons
+  x.sudoer:
+    default: false
