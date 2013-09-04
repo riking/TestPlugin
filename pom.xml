@@ -4,12 +4,8 @@
 	<groupId>TestPlugin</groupId>
 	<artifactId>TestPlugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<repositories>
-		<repository>
-			<id>bukkit-snap</id>
-			<url>http://repo.bukkit.org/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
+	<!-- <repositories> <repository> <id>bukkit-snap</id> <url>http://repo.bukkit.org/content/groups/public</url> 
+		</repository> </repositories> -->
 	<build>
 		<finalName>TestPlugin</finalName>
 		<plugins>
@@ -30,13 +26,8 @@
 			<artifactId>bukkit</artifactId>
 			<version>1.6.2-R0.2-SNAPSHOT</version>
 		</dependency>
-		<!--
-		<dependency>
-			<groupId>com.github.riking.lib.templateworlds</groupId>
-			<artifactId>templateworlds</artifactId>
-			<version>2.0.0</version>
-			<scope>provided</scope>
-		</dependency>
-		-->
+		<!-- <dependency> <groupId>com.github.riking.lib.templateworlds</groupId> 
+			<artifactId>templateworlds</artifactId> <version>2.0.0</version> <scope>provided</scope> 
+			</dependency> -->
 	</dependencies>
 </project>
